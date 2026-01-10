@@ -81,8 +81,8 @@ polymirror/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/polymirror.git
-cd polymirror
+git clone https://github.com/devdasx/Polymarket-Copy-Trading-Bot.git
+cd Polymarket-Copy-Trading-Bot
 npm install
 ```
 

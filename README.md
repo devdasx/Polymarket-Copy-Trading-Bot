@@ -61,8 +61,10 @@ polymirror/
 ├── package.json
 ├── tsconfig.json
 └── .env                         # Environment variables (ignored)
+```
 
 ---
+
 ## ⚙️ Requirements
 
 - Node.js **v18 or higher**
@@ -80,6 +82,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/yourusername/polymirror.git
 cd polymirror
 npm install
+```
 
 ---
 
@@ -92,6 +95,9 @@ PRIVATE_KEY=your_wallet_private_key
 POLYMARKET_API_KEY=your_api_key
 POLYMARKET_API_SECRET=your_api_secret
 RPC_URL=https://your_rpc_endpoint
+```
+
+> ⚠️ **Never share your private key or `.env` file.**
 
 ---
 
@@ -101,13 +107,14 @@ Start the copy trading process:
 
 ```bash
 node run-forever.mjs
+```
 
 The bot will:
 
-1. Monitor selected Polymarket trader wallets
-2. Detect new trades and positions
-3. Mirror those trades in your wallet
-4. Log all actions locally
+1. Monitor selected Polymarket trader wallets  
+2. Detect new trades and positions  
+3. Mirror those trades in your wallet  
+4. Log all actions locally  
 
 ---
 
@@ -117,11 +124,13 @@ Run the project in development mode:
 
 ```bash
 npm run dev
+```
 
 Build the project for production:
 
 ```bash
 npm run build
+```
 
 ---
 
@@ -180,10 +189,9 @@ If you find PolyMirror useful:
 - 🧠 Share it with other developers  
 - 🛠️ Contribute improvements  
 
----
+
 
 ## 👤 Author
 
-Created and maintained by **Yousef**  
+Created and maintained by **DevDasX**  
 Open-source blockchain developer
-

@@ -50,8 +50,6 @@ Security is a core principle of PolyMirror.
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```text
 polymirror/
 ├── copy-trades.ts               # Core copy trading logic

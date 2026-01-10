@@ -1,0 +1,25 @@
+{
+  "name": "polymarket-mirror-cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "derive:creds": "tsx src/derive-creds-safe.ts",
+    "derive:creds:v2": "tsx src/derive-creds-safe-v2.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.0",
+    "chalk": "^5.6.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.8.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

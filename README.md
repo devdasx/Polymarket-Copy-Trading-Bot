@@ -50,6 +50,8 @@ Security is a core principle of PolyMirror.
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
 ```text
 polymirror/
 ├── copy-trades.ts               # Core copy trading logic
@@ -110,7 +112,6 @@ node run-forever.mjs
 ```
 
 The bot will:
-
 1. Monitor selected Polymarket trader wallets  
 2. Detect new trades and positions  
 3. Mirror those trades in your wallet  
@@ -120,7 +121,7 @@ The bot will:
 
 ## 🧪 Development
 
-Run the project in development mode:
+Run in development mode:
 
 ```bash
 npm run dev
